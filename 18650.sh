@@ -15,6 +15,7 @@
 # http://seclists.org/fulldisclosure/2012/Mar/234
 # http://www.exploit-db.com/exploits/18649
 # Edited: autom4il, now using bash no libraries or what's so ever.
+# Edited date: 11/12/22
 ############################################################
 
 rhost=$1
