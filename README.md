@@ -1,5 +1,5 @@
 # OSCP
-Modified custom exploits and general scripts.
+Modified exploits and general scripts.
 
 ## 18650.py 
 
