@@ -8,7 +8,7 @@ data = "A" * 500
 max_input = 3300
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("192.168.171.10", 2233))
+s.connect(("IP-ADDRESS", 2233))
 
 try:
     while len(data) <= max_input:
