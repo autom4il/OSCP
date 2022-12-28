@@ -5,7 +5,7 @@ Author: autom4il
 Date: 27/12/22
 Description: During the OSCP labs you may need to take the nmap static binary
                 over but in case there is some compatibility issue and nc is to
-                slow you can use this python "port scanner" is available on the
+                slow you can use this python "port scanner" if python is available on the
                 target machine.
 '''
 
