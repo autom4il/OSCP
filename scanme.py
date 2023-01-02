@@ -26,10 +26,10 @@ def scan_port(host, port):
 def main():
 
     host = ''
-    if len(sys.argv) == 1:
-        host = sys.argv[1]
-    else:
+    if len(sys.argv) != 2:
         print('Usage: ' + sys.argv[0] + ' <target-ip-address>')
+    else:
+        host = sys.argv[1]
 
     # Ports to scan
     top_ports = [
